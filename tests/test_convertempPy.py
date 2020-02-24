@@ -22,4 +22,4 @@ def test_kelvin_to_fahr():
 
 
 def fahr_to_kelvin():
-    assert tmp.fahr_to_celsius(32) == 273.15
+    assert tmp.fahr_to_kelvin(32) == 273.15

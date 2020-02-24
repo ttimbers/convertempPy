@@ -131,7 +131,7 @@ def fahr_to_kelvin(temp):
     Examples
     --------
     >>> from convertempPy import convertempPy as tmp
-    >>> tmp.fahr_to_celsius(32)
+    >>> tmp.fahr_to_kelvin(32)
     273.15
     """
     temp_c = fahr_to_celsius(temp)
