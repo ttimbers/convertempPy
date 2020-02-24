@@ -4,7 +4,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/convertempPy/badge/?version=latest)](https://convertempPy.readthedocs.io/en/latest/?badge=latest)
 
-Easily convert between temperatures!
+Easily convert between temperatures! Celsius, Kelvin & Fahrenheit!
 
 ### Installation:
 
@@ -13,7 +13,7 @@ pip install -i https://test.pypi.org/simple/ convertempPy
 ```
 
 ### Features
-Contains functions for all permutations of conversions between Celsius, Kelvin and Fahrenheit
+Contains functions for all permutations of conversions between Celsius, Kelvin and Fahrenheit.
 
 ### Dependencies
 
