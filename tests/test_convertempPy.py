@@ -21,5 +21,5 @@ def test_kelvin_to_fahr():
     assert tmp.kelvin_to_fahr(273.15) == 32
 
 
-def fahr_to_kelvin():
+def test_fahr_to_kelvin():
     assert tmp.fahr_to_kelvin(32) == 273.15
