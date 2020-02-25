@@ -4,6 +4,9 @@ version = "0.1.8"
 description = "Easily convert between temperatures!"
 authors = ["ttimbers <tiffany.timbers@stat.ubc.ca>"]
 license = "MIT"
+packages = [
+    { include = "convertempPy"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -26,7 +29,3 @@ patch_without_tag = "true"
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
-
-packages = [
-    { include = "convertempPy"},
-]
