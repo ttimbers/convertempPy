@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "convertempPy"
+name = "convertemppy"
 version = "0.1.5"
 description = "Easily convert between temperatures!"
 authors = ["ttimbers <tiffany.timbers@stat.ubc.ca>"]
