@@ -2,7 +2,7 @@
 
 ![](https://github.com/ttimbers/convertempPy/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/ttimbers/convertempPy/branch/master/graph/badge.svg)](https://codecov.io/gh/ttimbers/convertempPy) ![Release](https://github.com/ttimbers/convertempPy/workflows/Release/badge.svg)
 
-[![Documentation Status](https://readthedocs.org/projects/convertempPy/badge/?version=latest)](https://convertempPy.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/convertemppy/badge/?version=latest)](https://convertemppy.readthedocs.io/en/latest/?badge=latest)
 
 Easily convert between temperatures! Celsius, Kelvin & Fahrenheit!
 
