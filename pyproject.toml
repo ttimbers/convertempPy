@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "convertempPy"
-version = "0.1.4"
+version = "0.1.5"
 description = "Easily convert between temperatures!"
 authors = ["ttimbers <tiffany.timbers@stat.ubc.ca>"]
 license = "MIT"
