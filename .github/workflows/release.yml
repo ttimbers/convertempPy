@@ -77,6 +77,6 @@ jobs:
         PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
   
-        poetry config repositories.convertempPy https://test.pypi.org/legacy/
+        poetry config repositories.test-pypi https://test.pypi.org/legacy/
         poetry build
-        poetry publish -r convertempPy -u $PYPI_USERNAME -p $PYPI_PASSWORD
+        poetry publish -r test-pypi -u $PYPI_USERNAME -p $PYPI_PASSWORD
