@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "convertemppy"
-version = "0.1.11"
+version = "0.1.12"
 description = "Easily convert between temperatures!"
 authors = ["ttimbers <tiffany.timbers@stat.ubc.ca>"]
 readme = "README.md"
