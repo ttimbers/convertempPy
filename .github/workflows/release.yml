@@ -41,8 +41,8 @@ jobs:
         fetch-depth: '0'
     - name: Temporarily disable "include administrators" branch protection
       uses: benjefferies/branch-protection-bot@master
-        if: always()
-        with:
+      if: always()
+      with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
     - name: Bump version and tagging and publish
       run: |
