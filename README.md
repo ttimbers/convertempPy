@@ -13,7 +13,7 @@ pip install -i https://test.pypi.org/simple/ convertempPy
 ```
 
 ### Features
-Contains functions for all permutations of conversions between Celsius, Kelvin and Fahrenheit.
+Contains functions for all permutations of conversions between Celsius, Kelvin and Fahrenheit. This package is an example for the UBC MDS DSCI 524 (Collaborative Software Development) course.
 
 ### Dependencies
 
