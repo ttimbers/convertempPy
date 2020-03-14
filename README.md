@@ -4,7 +4,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/convertemppy/badge/?version=latest)](https://convertemppy.readthedocs.io/en/latest/?badge=latest)
 
-Easily convert between temperatures - Celsius, Kelvin & Fahrenheit! This is a toy package developed for demonstration in the [UBC MDS DSCI 524 (Collaborative Software Development) course](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev). 
+Easily convert between temperatures: Celsius, Kelvin & Fahrenheit! This is a toy package developed for demonstration in the [UBC MDS DSCI 524 (Collaborative Software Development) course](https://github.com/UBC-MDS/DSCI_524_collab-sw-dev). 
 
 ### Installation:
 
