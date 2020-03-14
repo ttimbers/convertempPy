@@ -44,6 +44,7 @@ jobs:
       if: always()
       with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
+          enforce_admins: false
     - name: Bump version and tagging and publish
       run: |
         git config --local user.email "action@github.com"
@@ -62,6 +63,7 @@ jobs:
         access-token: ${{ secrets.ACCESS_TOKEN }}
         owner: ttimbers
         repo: convertempPy
+        enforce_admins: true
     - name: Release tag
       run: |
         echo ::set-output name=release_tag::$(grep "version" */__init__.py | cut -d "'" -f 2 | cut -d '"' -f 2)
