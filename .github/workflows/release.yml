@@ -45,6 +45,7 @@ jobs:
       with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           enforce_admins: false
+          repo: convertempPy
           owner: ttimbers
     - name: Bump version and tagging and publish
       run: |
