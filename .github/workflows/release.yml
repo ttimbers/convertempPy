@@ -55,7 +55,7 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.ACCESS_TOKEN }}
     - name: Enable "include administrators" branch protection
       uses: benjefferies/branch-protection-bot@master
       if: always()  # Force to always run this step to ensure "include administrators" is always turned back on
