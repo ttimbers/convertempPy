@@ -18,7 +18,7 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
-pytest-cov = "^2.8.1"
+pytest-cov = "^3.0.0"
 codecov = "^2.0.16"
 python-semantic-release = "^4.6.0"
 flake8 = "^3.7.9"
