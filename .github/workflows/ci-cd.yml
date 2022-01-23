@@ -20,7 +20,7 @@ jobs:
     # Step 3. Check-out repository so we can access its contents
     - uses: actions/checkout@v2
     # Step 4. Install poetry
-    - uses: snok/install-poetry@v1
+    - uses: snok/install-poetry@v2
     # Step 5. Install our package
     - name: Install package
       run: poetry install
