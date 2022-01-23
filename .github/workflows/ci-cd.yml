@@ -20,7 +20,7 @@ jobs:
     # Step 3. Check-out repository so we can access its contents
     - uses: actions/checkout@v2
     # Step 4. Install poetry
-    - uses: snok/install-poetry@v2
+    - uses: snok/install-poetry@v1
     # Step 5. Install our package
     - name: Install package
       run: poetry install
@@ -28,7 +28,7 @@ jobs:
     - name: Test with pytest
       run: poetry run pytest tests/ --cov=convertemppy --cov-report=xml
     # Step 7. Use Codecov to track coverage
-    - uses: codecov/codecov-action@v1
+    - uses: codecov/codecov-action@v2
       with:
         files: ./coverage.xml   # coverage report
         fail_ci_if_error: true  # terminate workflow if there's an error
