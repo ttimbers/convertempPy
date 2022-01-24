@@ -1,6 +1,6 @@
 ## convertempPy 
 
-![](https://github.com/ttimbers/convertempPy/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/ttimbers/convertempPy/branch/master/graph/badge.svg)](https://codecov.io/gh/ttimbers/convertempPy) ![Release](https://github.com/ttimbers/convertempPy/workflows/Release/badge.svg)
+![](https://github.com/ttimbers/convertempPy/workflows/build/badge.svg) [![codecov](https://codecov.io/gh/ttimbers/convertempPy/branch/master/graph/badge.svg)](https://codecov.io/gh/ttimbers/convertempPy) ![ci-cd](https://github.com/ttimbers/convertempPy/actions/workflows/ci-cd.yml)
 
 [![Documentation Status](https://readthedocs.org/projects/convertemppy/badge/?version=latest)](https://convertemppy.readthedocs.io/en/latest/?badge=latest)
 
